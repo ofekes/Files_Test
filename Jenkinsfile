@@ -5,7 +5,7 @@ pipeline {
         stage('Hello') {
             steps {
                 echo 'Hello World'
-                echo 'Provider: ${Provider}'
+                echo 'Provider: ${params.Provider}'
             }
         }
     }

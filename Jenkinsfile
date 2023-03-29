@@ -1,2 +1,11 @@
+pipeline {
+    agent any
 
-echo 'Helo Ofer'
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+    }
+}
